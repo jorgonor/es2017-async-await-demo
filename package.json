@@ -1,0 +1,22 @@
+{
+    "name": "async-await-demo",
+    "version": "0.0.1",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "start": "webpack-dev-server --disable-host-check --history-api-fallback"
+    },
+    "dependencies": {
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^6.4.1",
+        "babel-preset-es2017": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "html-webpack-plugin": "^2.9.0",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.11.0"
+    }
+}
